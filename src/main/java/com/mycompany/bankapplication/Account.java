@@ -11,4 +11,5 @@ package com.mycompany.bankapplication;
  */
 public class Account {
     
+    
 }
