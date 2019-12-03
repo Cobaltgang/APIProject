@@ -10,43 +10,5 @@ package com.mycompany.bankapplication;
  * @author blras
  */
 public class Account {
-    private String SortCode;
-    private String AccNo;
-    private Double Balance;
-    private String CustomerName;
-
-    public String getSortCode() {
-        return SortCode;
-    }
-
-    public void setSortCode(String SortCode) {
-        this.SortCode = SortCode;
-    }
-
-    public String getAccNo() {
-        return AccNo;
-    }
-
-    public void setAccNo(String AccNo) {
-        this.AccNo = AccNo;
-    }
-
-    public Double getBalance() {
-        return Balance;
-    }
-
-    public void setBalance(Double Balance) {
-        this.Balance = Balance;
-    }
-
-    public String getCustomerName() {
-        return CustomerName;
-    }
-
-    public void setCustomerName(String CustomerName) {
-        this.CustomerName = CustomerName;
-    }
-    
-    
     
 }

@@ -20,15 +20,7 @@ public class Customer {
     private String Address;
     private String Eircode;
     private String Email;
-    private String PPS;
-    
-    public Customer(String name, String address, String eircode, String email, String pps){
-        name = Name;
-        address=Address;
-        eircode=Eircode;
-        email=Email;
-        pps = PPS;
-    }
+    private String BIC;
     
     public String getName() {
         return Name;
@@ -62,12 +54,12 @@ public class Customer {
         this.Email = Email;
     }
 
-    public String getPPS() {
-        return PPS;
+    public String getBIC() {
+        return BIC;
     }
 
-    public void setPPS(String PPS) {
-        this.PPS = PPS;
+    public void setBIC(String BIC) {
+        this.BIC = BIC;
     }
    
     
